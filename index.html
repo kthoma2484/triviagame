@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wine Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Great+Vibes|Kaushan+Script" rel="stylesheet">    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+    <section class="main-sec">
+
+        <section class="header">
+            <p>The Ultimate Winer Trivia</p>
+        </section>
+        
+        <button class="start">Start Game</button>   
+    
+        <section class="content">
+
+            <section class="container hide-me1">
+                
+                <form>
+                    <p class="red">What is the difference between red wine and white wine?</p>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">White wine is made from different grapes</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Red wine is harvested later</label>
+                    </div>  
+                    <div>
+                        <label><input type="radio" name="optradio">When making red wine, the skins of the grapes are left in the wine during fermentation</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">The skins of red wine grapes are darker in color</label>
+                    </div>
+
+                    <p class="red">What are the grapes in a Bordeaux style wine?</p>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Cabernet sauvignon, pinot noir, cabernet franc</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Merlot, carmenere, petit verdot and cabernet sauvignon</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Merlot, malbec and pinot noir</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">Merlot, cabernet sauvignon, cabernet franc, petit verdot, carmenere and malbec</label>
+                    </div>
+
+                    <p class="red">What is the difference between looking at a French wine and an American, in terms of how it's labeled?</p>
+                    <div>
+                        <label><input type="radio" name="optradio">French wine is more expensive</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">American wine marked with alcohol content</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">American wine is more regulated in terms of what it can be called</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">French wine is labeled by where it is made</label>
+                    </div>
+
+                    <p class="red">Sangiovese is the type of grape used to make...</p>
+                    <div>
+                        <label><input type="radio" name="optradio">Bordeaux style wine</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">White table wine</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">Chianti style wine</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Rose wine</label>
+                    </div>
+
+                    <p class="red">Which of these white wines is usually a little sweet?</p>
+                    <div>
+                        <label><input type="radio" name="optradio">Riesling</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Sauvignon Blanc</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">Chardonnay</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Pinot Grigio</label>
+                    </div>
+
+                    <p class="red">Which of these red wines is usually (most commonly) a little spicy or peppery?</p>
+                    <div>
+                        <label><input type="radio" name="optradio">Cabernet Sauvignon</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Shiraz</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">Merlot</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Pinot Noir</label>
+                    </div>
+
+                    <p class="red">Why is champagne bubbly?</p>
+                    <div>
+                        <label><input type="radio" name="optradio">The wine is aged less</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">The wine undergoes a secondary fermentation, usually yeast and sugar is added</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">The wine is aged in steel</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">The wine is shaken</label>
+                    </div>
+
+                    <p class="red">What is the traditional way to pour wine during a wine service?</p>
+                    <div>
+                        <label><input type="radio" name="optradio">The person who ordered the wine is first, then clockwise around the table</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Counterclockwise</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">Ladies first, then men, finishing with whomever ordered the bottle</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">Ladies first, then men, no matter who ordered the bottle</label>
+                    </div>
+
+                    <p class="red">What is a stelvin?</p>
+                    <div>
+                        <label><input type="radio" name="optradio">A wine opener</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">A special glass for port wine</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">A type of wine cap, commonly known as a screw cap</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">An expert on wine, like a sommelier</label>
+                    </div>
+
+                    <p class="red">Why do people smell the cork during a wine service?</p>
+                    <div>
+                        <label><input type="radio" name="optradio">To see if the wine has gone bad</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">To see if the wine has been aged properly</label>
+                    </div>    
+                    <div>
+                        <label><input type="radio" name="optradio">To get a sense of the wine</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="optradio">None of the above</label>
+                    </div>
+
+                </form>
+
+                    
+            <button class="done">Fini!</button>
+        </section>     
+
+        <section class="final-tally hide-me2">
+            <p>C'est Tout!</p>
+            <p>Correct Answers: </p>
+            <p id="numCorrect">0</p>
+            <p>Wrong Answers: </p>
+            <p id="numWrong">0</p>
+            <p>Unanswered: </p>
+            <p id="numNotAns">0</p>
+        </section>   
+
+    </section>
+
+</body>
+
+</html>

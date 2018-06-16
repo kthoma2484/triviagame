@@ -1,0 +1,70 @@
+body {
+    background-image: url("../images/much-wine-carafe-hold_a966bf324eeca244.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-sec {
+    background-color: rgba(71, 7, 7, 0.4);
+    margin: auto;
+    max-width: 75%;
+    padding: auto;
+    text-align: center;
+}
+
+.header{
+    font-size: 100px;
+    font-family: 'Dancing Script', 'Courgette', 'Great Vibes', 'Kaushan Script', 'cursive', sans-serif;
+    font-weight: 900;
+    color: darkred;
+    text-align: center;
+}
+
+button {
+    background: darkred;
+    font-size: 40px;
+    font-family: 'Dancing Script', 'Courgette', 'Great Vibes', 'Kaushan Script', 'cursive', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.content {
+    font-size: 30px;
+    font-family: 'Kaushan Script', 'cursive', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    margin: 30px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.final-tally {
+    font-size: 40px;
+    font-family: 'Dancing Script', 'Courgette', 'Great Vibes', 'Kaushan Script', 'cursive', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.red {
+    color: darkred;
+}
+
+.hide-me1 {
+    display: none;
+}
+
+.hide-me2 {
+    display: none;
+}
+
+.show-me {
+    display: block;
+}
+
