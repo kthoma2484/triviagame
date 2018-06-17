@@ -53,7 +53,7 @@ button {
 
 .container {
     overflow: auto;
-    max-height: 600px;
+    max-height: 900px;
 }
 
 label {
