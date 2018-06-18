@@ -30,6 +30,7 @@ body {
     padding: 0;
 }
 
+.timer,
 button {
     flex: 1;
     background: darkred;
